@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA9AA4071902C8AB00D2426D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9AA4061902C8AB00D2426D /* Foundation.framework */; };
+		FA9AA4091902C8AB00D2426D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9AA4081902C8AB00D2426D /* CoreGraphics.framework */; };
+		FA9AA40B1902C8AB00D2426D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9AA40A1902C8AB00D2426D /* UIKit.framework */; };
+		FA9AA4111902C8AB00D2426D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA9AA40F1902C8AB00D2426D /* InfoPlist.strings */; };
+		FA9AA4131902C8AB00D2426D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9AA4121902C8AB00D2426D /* main.m */; };
+		FA9AA4171902C8AB00D2426D /* KranionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9AA4161902C8AB00D2426D /* KranionAppDelegate.m */; };
+		FA9AA41A1902C8AB00D2426D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9AA4181902C8AB00D2426D /* Main_iPhone.storyboard */; };
+		FA9AA41D1902C8AB00D2426D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9AA41B1902C8AB00D2426D /* Main_iPad.storyboard */; };
+		FA9AA4201902C8AB00D2426D /* KranionFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9AA41F1902C8AB00D2426D /* KranionFirstViewController.m */; };
+		FA9AA4231902C8AB00D2426D /* KranionSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9AA4221902C8AB00D2426D /* KranionSecondViewController.m */; };
+		FA9AA4251902C8AB00D2426D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9AA4241902C8AB00D2426D /* Images.xcassets */; };
+		FA9AA42C1902C8AB00D2426D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9AA42B1902C8AB00D2426D /* XCTest.framework */; };
+		FA9AA42D1902C8AB00D2426D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9AA4061902C8AB00D2426D /* Foundation.framework */; };
+		FA9AA42E1902C8AB00D2426D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9AA40A1902C8AB00D2426D /* UIKit.framework */; };
+		FA9AA4361902C8AB00D2426D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA9AA4341902C8AB00D2426D /* InfoPlist.strings */; };
+		FA9AA4381902C8AB00D2426D /* KranionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9AA4371902C8AB00D2426D /* KranionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA9AA42F1902C8AB00D2426D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9AA3FB1902C8AB00D2426D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9AA4021902C8AB00D2426D;
+			remoteInfo = Kranion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA9AA4031902C8AB00D2426D /* Kranion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kranion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9AA4061902C8AB00D2426D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA9AA4081902C8AB00D2426D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA9AA40A1902C8AB00D2426D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA9AA40E1902C8AB00D2426D /* Kranion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kranion-Info.plist"; sourceTree = "<group>"; };
+		FA9AA4101902C8AB00D2426D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA9AA4121902C8AB00D2426D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA9AA4141902C8AB00D2426D /* Kranion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kranion-Prefix.pch"; sourceTree = "<group>"; };
+		FA9AA4151902C8AB00D2426D /* KranionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KranionAppDelegate.h; sourceTree = "<group>"; };
+		FA9AA4161902C8AB00D2426D /* KranionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KranionAppDelegate.m; sourceTree = "<group>"; };
+		FA9AA4191902C8AB00D2426D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FA9AA41C1902C8AB00D2426D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FA9AA41E1902C8AB00D2426D /* KranionFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KranionFirstViewController.h; sourceTree = "<group>"; };
+		FA9AA41F1902C8AB00D2426D /* KranionFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KranionFirstViewController.m; sourceTree = "<group>"; };
+		FA9AA4211902C8AB00D2426D /* KranionSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KranionSecondViewController.h; sourceTree = "<group>"; };
+		FA9AA4221902C8AB00D2426D /* KranionSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KranionSecondViewController.m; sourceTree = "<group>"; };
+		FA9AA4241902C8AB00D2426D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA9AA42A1902C8AB00D2426D /* KranionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KranionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9AA42B1902C8AB00D2426D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA9AA4331902C8AB00D2426D /* KranionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KranionTests-Info.plist"; sourceTree = "<group>"; };
+		FA9AA4351902C8AB00D2426D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA9AA4371902C8AB00D2426D /* KranionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KranionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9AA4001902C8AB00D2426D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9AA4091902C8AB00D2426D /* CoreGraphics.framework in Frameworks */,
+				FA9AA40B1902C8AB00D2426D /* UIKit.framework in Frameworks */,
+				FA9AA4071902C8AB00D2426D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9AA4271902C8AB00D2426D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9AA42C1902C8AB00D2426D /* XCTest.framework in Frameworks */,
+				FA9AA42E1902C8AB00D2426D /* UIKit.framework in Frameworks */,
+				FA9AA42D1902C8AB00D2426D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA9AA3FA1902C8AB00D2426D = {
+			isa = PBXGroup;
+			children = (
+				FA9AA40C1902C8AB00D2426D /* Kranion */,
+				FA9AA4311902C8AB00D2426D /* KranionTests */,
+				FA9AA4051902C8AB00D2426D /* Frameworks */,
+				FA9AA4041902C8AB00D2426D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9AA4041902C8AB00D2426D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AA4031902C8AB00D2426D /* Kranion.app */,
+				FA9AA42A1902C8AB00D2426D /* KranionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA9AA4051902C8AB00D2426D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AA4061902C8AB00D2426D /* Foundation.framework */,
+				FA9AA4081902C8AB00D2426D /* CoreGraphics.framework */,
+				FA9AA40A1902C8AB00D2426D /* UIKit.framework */,
+				FA9AA42B1902C8AB00D2426D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA9AA40C1902C8AB00D2426D /* Kranion */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AA4151902C8AB00D2426D /* KranionAppDelegate.h */,
+				FA9AA4161902C8AB00D2426D /* KranionAppDelegate.m */,
+				FA9AA4181902C8AB00D2426D /* Main_iPhone.storyboard */,
+				FA9AA41B1902C8AB00D2426D /* Main_iPad.storyboard */,
+				FA9AA41E1902C8AB00D2426D /* KranionFirstViewController.h */,
+				FA9AA41F1902C8AB00D2426D /* KranionFirstViewController.m */,
+				FA9AA4211902C8AB00D2426D /* KranionSecondViewController.h */,
+				FA9AA4221902C8AB00D2426D /* KranionSecondViewController.m */,
+				FA9AA4241902C8AB00D2426D /* Images.xcassets */,
+				FA9AA40D1902C8AB00D2426D /* Supporting Files */,
+			);
+			path = Kranion;
+			sourceTree = "<group>";
+		};
+		FA9AA40D1902C8AB00D2426D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AA40E1902C8AB00D2426D /* Kranion-Info.plist */,
+				FA9AA40F1902C8AB00D2426D /* InfoPlist.strings */,
+				FA9AA4121902C8AB00D2426D /* main.m */,
+				FA9AA4141902C8AB00D2426D /* Kranion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA9AA4311902C8AB00D2426D /* KranionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AA4371902C8AB00D2426D /* KranionTests.m */,
+				FA9AA4321902C8AB00D2426D /* Supporting Files */,
+			);
+			path = KranionTests;
+			sourceTree = "<group>";
+		};
+		FA9AA4321902C8AB00D2426D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AA4331902C8AB00D2426D /* KranionTests-Info.plist */,
+				FA9AA4341902C8AB00D2426D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9AA4021902C8AB00D2426D /* Kranion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9AA43B1902C8AB00D2426D /* Build configuration list for PBXNativeTarget "Kranion" */;
+			buildPhases = (
+				FA9AA3FF1902C8AB00D2426D /* Sources */,
+				FA9AA4001902C8AB00D2426D /* Frameworks */,
+				FA9AA4011902C8AB00D2426D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kranion;
+			productName = Kranion;
+			productReference = FA9AA4031902C8AB00D2426D /* Kranion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA9AA4291902C8AB00D2426D /* KranionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9AA43E1902C8AB00D2426D /* Build configuration list for PBXNativeTarget "KranionTests" */;
+			buildPhases = (
+				FA9AA4261902C8AB00D2426D /* Sources */,
+				FA9AA4271902C8AB00D2426D /* Frameworks */,
+				FA9AA4281902C8AB00D2426D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA9AA4301902C8AB00D2426D /* PBXTargetDependency */,
+			);
+			name = KranionTests;
+			productName = KranionTests;
+			productReference = FA9AA42A1902C8AB00D2426D /* KranionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA9AA3FB1902C8AB00D2426D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Kranion;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sekisa;
+				TargetAttributes = {
+					FA9AA4291902C8AB00D2426D = {
+						TestTargetID = FA9AA4021902C8AB00D2426D;
+					};
+				};
+			};
+			buildConfigurationList = FA9AA3FE1902C8AB00D2426D /* Build configuration list for PBXProject "Kranion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA9AA3FA1902C8AB00D2426D;
+			productRefGroup = FA9AA4041902C8AB00D2426D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9AA4021902C8AB00D2426D /* Kranion */,
+				FA9AA4291902C8AB00D2426D /* KranionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9AA4011902C8AB00D2426D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9AA41D1902C8AB00D2426D /* Main_iPad.storyboard in Resources */,
+				FA9AA4251902C8AB00D2426D /* Images.xcassets in Resources */,
+				FA9AA41A1902C8AB00D2426D /* Main_iPhone.storyboard in Resources */,
+				FA9AA4111902C8AB00D2426D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9AA4281902C8AB00D2426D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9AA4361902C8AB00D2426D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9AA3FF1902C8AB00D2426D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9AA4131902C8AB00D2426D /* main.m in Sources */,
+				FA9AA4231902C8AB00D2426D /* KranionSecondViewController.m in Sources */,
+				FA9AA4171902C8AB00D2426D /* KranionAppDelegate.m in Sources */,
+				FA9AA4201902C8AB00D2426D /* KranionFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9AA4261902C8AB00D2426D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9AA4381902C8AB00D2426D /* KranionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA9AA4301902C8AB00D2426D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9AA4021902C8AB00D2426D /* Kranion */;
+			targetProxy = FA9AA42F1902C8AB00D2426D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA9AA40F1902C8AB00D2426D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9AA4101902C8AB00D2426D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA9AA4181902C8AB00D2426D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9AA4191902C8AB00D2426D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FA9AA41B1902C8AB00D2426D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9AA41C1902C8AB00D2426D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FA9AA4341902C8AB00D2426D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9AA4351902C8AB00D2426D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA9AA4391902C8AB00D2426D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA9AA43A1902C8AB00D2426D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA9AA43C1902C8AB00D2426D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kranion/Kranion-Prefix.pch";
+				INFOPLIST_FILE = "Kranion/Kranion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA9AA43D1902C8AB00D2426D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kranion/Kranion-Prefix.pch";
+				INFOPLIST_FILE = "Kranion/Kranion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA9AA43F1902C8AB00D2426D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kranion.app/Kranion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kranion/Kranion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KranionTests/KranionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA9AA4401902C8AB00D2426D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kranion.app/Kranion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kranion/Kranion-Prefix.pch";
+				INFOPLIST_FILE = "KranionTests/KranionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9AA3FE1902C8AB00D2426D /* Build configuration list for PBXProject "Kranion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9AA4391902C8AB00D2426D /* Debug */,
+				FA9AA43A1902C8AB00D2426D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9AA43B1902C8AB00D2426D /* Build configuration list for PBXNativeTarget "Kranion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9AA43C1902C8AB00D2426D /* Debug */,
+				FA9AA43D1902C8AB00D2426D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA9AA43E1902C8AB00D2426D /* Build configuration list for PBXNativeTarget "KranionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9AA43F1902C8AB00D2426D /* Debug */,
+				FA9AA4401902C8AB00D2426D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA9AA3FB1902C8AB00D2426D /* Project object */;
+}
